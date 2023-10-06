@@ -1,0 +1,7 @@
+myvenv 가상환경 활성
+myvenv\Scripts\activate
+
+pip list
+
+리퀘스트 설치
+pip requests
