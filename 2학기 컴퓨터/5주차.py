@@ -23,6 +23,7 @@ else :
     print(year, "년은 윤년이 아닙니다.")
 
 
+
 a=float(input("a값 입력: "))
 b=float(input("b값 입력: "))
 c=float(input("c값 입력: "))
@@ -84,5 +85,4 @@ elif dist == r1 + r2:
     turtle.write("외접")
 elif dist < r1 - r2:
     turtle.write("만나지 않고 내부에 있습니다.")
-
 

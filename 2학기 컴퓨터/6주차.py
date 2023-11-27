@@ -31,6 +31,28 @@ while True:
 
         print("배송료는", shipping_cose, "입니다")
         break
+    elif choice == '4':
+        ct = input("국가를 입력하세요: ")
+        st = input("도시입력하세요: ")
+        money = 0
+        if ct == '한국':
+            
+            if st == '부산':
+                money = 5000
+            elif st == '제주도':
+                money = 10000
+            else:
+                print("다시 입력하세요")
+        else:
+            money= 50000
+        print("금액은",money, "입니다")
+        break
+    
+    
+    
+    
+    
+    
     else:
         print("없는 숫자입니다")
 #20231016 17:09완료

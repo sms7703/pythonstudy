@@ -1,0 +1,20 @@
+원격 저장소 확인
+git remote -v
+
+
+삭제
+git remote rm origin
+
+원격 저장소 추가
+git remote add origin https://github.com/sms7703/pythonstudy.git
+만약 already exiset (이전꺼 연결되어 있음) 오류시
+git remote remove origin  사용해서 삭제하고 
+^c
+cd..
+
+git init
+git add .
+git commit -m "20231127"
+git push origin main < 확인필요
+git remote add origin https://github.com/sms7703/pythonstudy.git
+git push -u origin master
