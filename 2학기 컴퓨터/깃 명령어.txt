@@ -15,5 +15,5 @@ git init
 git add .
 git commit -m "커밋내용"
 git push origin main < 확인필요
-git remote add origin https://github.com/계정이름/저장소이름.git
+git remote add origin https://github.com/sms7703/school.git
 git push -u origin master

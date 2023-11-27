@@ -31,6 +31,34 @@ while True:
 
         print("배송료는", shipping_cose, "입니다")
         break
+    
+    elif choice == '3':
+        
+        rechoice = input("\n 1.전부다\n 2.축약버전")
+        if rechoice == '1':
+            import turtle
+            t = turtle.Turtle()
+            t.circle(100)
+            t.left(60)
+            t.circle(100)
+            t.left(60)
+            t.circle(100)
+            t.left(60)
+            t.circle(100)
+            t.left(60)
+            t.circle(100)
+            t.left(60)
+            t.circle(100)
+            t.left(60)
+            break
+        if rechoice == '2':
+            import turtle
+            t = turtle.Turtle()
+            n=int(input("몇개? :"))
+            for x in range(n)
+            (t.circle(100),x)
+            (t.left(100),x)
+            break
     else:
         print("없는 숫자입니다")
 #20231016 17:09완료
