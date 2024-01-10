@@ -4,7 +4,7 @@ from tkinter import filedialog
 from tkinter import Tk
 from tqdm import tqdm  # Import tqdm for the progress bar
 
-def brute_force_zip(zip_file_path, max_digits=8):
+def brute_force_zip(zip_file_path, max_digits=10):
     with zipfile.ZipFile(zip_file_path, 'r') as zip_file:
         total_combinations = sum(len('0123456789')**length for length in range(1, max_digits + 1))
         current_combination = 0
